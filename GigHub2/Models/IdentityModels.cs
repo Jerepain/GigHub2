@@ -26,7 +26,7 @@ namespace GigHub2.Models
         }
 
         public static ApplicationDbContext Create()
-        {
+        { 
             return new ApplicationDbContext();
         }
     }
